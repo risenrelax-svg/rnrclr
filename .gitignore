@@ -13,6 +13,13 @@ hosting/.cache
 /functions/.env
 /functions/package-lock.json
 
+# Dependency directories
+node_modules/
+
+# Claude Extensions cache
+.claude/extensions/cache/
+.claude/extensions/**/cache/
+
 # Firebase Emulators
 /firebase-*.zip
 /.firebase/
